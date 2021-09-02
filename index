@@ -10,7 +10,7 @@
 <body>
 <header>
   <div id="logo" onclick="slowScroll('#top')">
-    <span>One Piece</span>
+    <span>Большой куш</span>
   </div>
   <div id = "about">
     <a href="#" onclick="slowScroll('#main')" title="Серии"> Серии</a>
