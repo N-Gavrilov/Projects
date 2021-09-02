@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HTML5 и CSS3 сайт</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<header>
+  <div id="logo" onclick="slowScroll('#top')">
+    <span>One Piece</span>
+  </div>
+  <div id = "about">
+    <a href="#" onclick="slowScroll('#main')" title="Серии"> Серии</a>
+    <a href="#" onclick="slowScroll('#overview')" title="Преимущества">Преимущества</a>
+      <a href="#" onclick="slowScroll('#contacts')" title="Контакты">Контакты</a>
+      <a href="#" onclick="slowScroll('#faq')" title="Ответы на вопросы">FAQ</a>
+  </div>
+</header>
+<div id="top">
+    <h1>Программирование</h1>
+    <h3>как способ жизни!</h3>
+  </div>
+
+</body>
+</html>
